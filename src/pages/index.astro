@@ -39,11 +39,17 @@
 
       main {
         padding: 1rem;
+        /* Center the content horizontally */
+        display: flex;
+        justify-content: center;
         /* Enable smooth scrolling for the table container */
         -webkit-overflow-scrolling: touch;
       }
 
       .table-container {
+        /* Max width matches table width */
+        max-width: 1000px;
+        /* Allow container to shrink on mobile */
         width: 100%;
         overflow-x: auto;
         /* Add some visual indication of scrollability */
